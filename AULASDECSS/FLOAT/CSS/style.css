@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    border-radius: 48px;
+    border-style:solid;
+    border-color: blue;
+    padding: 20px;
+    width: 100%;
+}
+
+div{
+    margin: 5px;
+    height: 150px;
+    width: 50px;
+}
+
+.esquerda{
+    background-color: pink;
+    float: left;
+}
+.direita{
+    float: right;
+    background-color: cyan;
+}

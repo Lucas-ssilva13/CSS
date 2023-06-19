@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(246, 183, 183);
+}
+main{
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+}
+.vermelho{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+.verde{
+    background-color: green;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.rosaroxo{
+    display: flex;
+}
+.rosaroxo{
+    display: flex;
+}
+.rosa{
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+}
+.roxo1{
+    background-color: purple;
+    height: 90px;
+    width: 700px;
+    margin-left: 10px;
+}
+.roxo2{
+    background-color: purple;
+    height: 90px;
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}

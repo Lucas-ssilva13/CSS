@@ -1,0 +1,53 @@
+main{
+    text-align: center;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container > div{
+    margin: 0px;
+    padding: 15px;
+    width: 70px;
+}
+
+.caixa > div{
+    margin: 0px;
+    padding: 15px;
+    width: 70px ;
+}
+.box > div{
+    margin: 5px;
+    padding: 15px;
+    width: 70px;
+}
+.caixinha > div{
+    margin: 0px;
+    padding: 15px;
+    width: 60px;
+}
+.container{
+    display: flex;
+    justify-content:flex-start
+}
+.caixa{
+    display: flex;
+    justify-content:flex-end
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.caixinha{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}

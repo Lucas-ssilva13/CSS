@@ -1,0 +1,33 @@
+body, h1{
+    background-color: rgb(55, 50, 50);
+    text-align: center;
+    
+}
+.grid{
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid;
+    display: grid;
+}
+.item{
+    margin: 2px;
+    background-color: rgb(125, 172, 225);
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.5em;
+}
+.primeiroexercicio{
+    grid-template-columns: 200px 200px 200px;
+}
+.segundoexercicio{
+    grid-template-columns: 1fr 2fr;
+}
+.terceiroexercicio{
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+.quartoexercicio{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+
+}

@@ -1,0 +1,23 @@
+.flex-container > div{
+    border: solid;
+    background-color: #ff0000;
+    margin: 20px;
+    padding: 20px;
+    width: 260px;
+    font-size: 70px;
+    
+
+}
+.flex-container{
+    display: flex;
+}
+
+.caixa{
+    background-color: rgb(166, 166, 242);
+    border: solid;
+    margin: 20px;
+    padding: 30px;
+    font-size: 70px;
+    width: 935px;
+    display: flex;
+}
